@@ -11,36 +11,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --gold-1: #fff7ed;
-            --gold-2: #fbbf24;
-            --gold-3: #d97706;
-            --gold-4: #92400e;
-            --gold-5: #451a03;
+            /* SHΞN™ Exclusive Rose Gold Palette */
+            --kcex-gold-light: #FFDFD3;
+            --kcex-gold-mid: #E5B5A3;
+            --kcex-gold-deep: #C28E7D;
+            --kcex-gold-shadow: #8C6A5C;
         }
         body {
             font-family: 'Vazirmatn', sans-serif;
             background-color: #000000;
             color: #f4f4f5;
             line-height: 1.6;
+            text-decoration: none !important;
+        }
+        * {
+            text-decoration: none !important;
         }
         .gold-gradient-text {
             background: linear-gradient(
-                to bottom right,
-                #fef3c7 0%,
-                #fbbf24 25%,
-                #d97706 50%,
-                #fbbf24 75%,
-                #fef3c7 100%
+                to bottom,
+                var(--kcex-gold-light) 0%,
+                var(--kcex-gold-mid) 50%,
+                var(--kcex-gold-deep) 100%
             );
-            background-size: 200% auto;
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             display: inline-block;
-            filter: drop-shadow(0 0 1px rgba(251, 191, 36, 0.3));
+            filter: drop-shadow(0 0 8px rgba(229, 181, 163, 0.2));
+        }
+        .gold-gradient-button {
+            background: linear-gradient(
+                135deg,
+                var(--kcex-gold-light) 0%,
+                var(--kcex-gold-mid) 45%,
+                var(--kcex-gold-deep) 100%
+            );
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px -5px rgba(194, 142, 125, 0.3);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 223, 211, 0.2);
+        }
+        .gold-gradient-button::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent,
+                rgba(255, 255, 255, 0.15),
+                transparent
+            );
+            transform: rotate(45deg);
+            transition: 0.6s;
+            pointer-events: none;
+        }
+        .gold-gradient-button:hover::after {
+            left: 100%;
+            top: 100%;
+        }
+        .gold-gradient-button:hover {
+            filter: brightness(1.05);
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px -8px rgba(194, 142, 125, 0.4);
         }
         .shen-footer-gradient {
-            background: linear-gradient(45deg, #ffffff, #a1a1aa, #3f3f46, #ffffff);
+            background: linear-gradient(45deg, #ffffff, #d4d4d8, #71717a, #ffffff);
             background-size: 200% 200%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -56,15 +96,14 @@
             animation: fadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(15px); }
+            from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
         .glass-panel {
-            background: rgba(15, 15, 15, 0.5);
-            backdrop-filter: blur(16px);
+            background: rgba(12, 12, 12, 0.8);
+            backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
-        /* Hide default scrollbar */
         ::-webkit-scrollbar { width: 0px; }
         body { scrollbar-width: none; }
     </style>
