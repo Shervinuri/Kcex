@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { 
-  ChevronRight, 
   ShieldCheck, 
   Smartphone, 
   Zap, 
@@ -192,10 +191,9 @@ const App: React.FC = () => {
                   </p>
                   <button 
                     onClick={handleStepNext}
-                    className="w-full md:w-auto px-10 py-5 bg-zinc-900 hover:bg-zinc-800 text-amber-500 font-black text-lg rounded-2xl border border-white/5 transition-all flex items-center justify-center gap-3 mx-auto group"
+                    className="w-full md:w-auto px-10 py-5 bg-zinc-900 hover:bg-zinc-800 text-amber-500 font-black text-lg rounded-2xl border border-white/5 transition-all flex items-center justify-center mx-auto"
                   >
                     خوب که چی !؟؟
-                    <ChevronRight className="group-hover:translate-x-1 transition-transform" size={20} />
                   </button>
                 </div>
               </div>
