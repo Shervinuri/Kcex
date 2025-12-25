@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KCEX | SHΞN™ Exclusive Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold-1: #fff7ed;
+            --gold-2: #fbbf24;
+            --gold-3: #d97706;
+            --gold-4: #92400e;
+            --gold-5: #451a03;
+        }
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #000000;
+            color: #f4f4f5;
+            line-height: 1.6;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(
+                to bottom right,
+                #fef3c7 0%,
+                #fbbf24 25%,
+                #d97706 50%,
+                #fbbf24 75%,
+                #fef3c7 100%
+            );
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            filter: drop-shadow(0 0 1px rgba(251, 191, 36, 0.3));
+        }
+        .shen-footer-gradient {
+            background: linear-gradient(45deg, #ffffff, #a1a1aa, #3f3f46, #ffffff);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-move 5s ease infinite;
+            font-family: 'Arimo', sans-serif;
+        }
+        @keyframes gradient-move {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .fade-in {
+            animation: fadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .glass-panel {
+            background: rgba(15, 15, 15, 0.5);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        /* Hide default scrollbar */
+        ::-webkit-scrollbar { width: 0px; }
+        body { scrollbar-width: none; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="overflow-x-hidden antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
