@@ -361,7 +361,7 @@ const App: React.FC = () => {
                   <p className="text-zinc-300 text-sm md:text-xl leading-loose font-medium px-4">
                     ثبت‌نام ۵ دقیقه‌ای با پذیرش <span className="gold-gradient-text font-black px-1">کارت ملی معتبر ایران</span>.
                     <br className="hidden md:block" />
-                    دریافت ارز معاملاتی بدون پرداخت یک ریال هزینه!
+                    دریافت وام ارز معاملاتی بدون پرداخت یک ریال هزینه!
                   </p>
                   <button 
                     onClick={handleStepNext}
@@ -390,8 +390,8 @@ const App: React.FC = () => {
                     </p>
                     
                     <p className="text-zinc-300 text-sm md:text-lg leading-loose text-center px-6">
-                      صاحب یک حساب معتبر با کارمزدهای <span className="text-white font-bold px-1">۰٪ واقعی</span> شوید. 
-                      با این مبلغ به راحتی می‌توانید <span className="gold-gradient-text font-black px-1">۴ الی ۵ برابر</span> سود استخراج کنید!
+                      و نهایتا شما صاحب یک حساب معتبر ارزی با کارمزدهای <span className="text-white font-bold px-1">۰٪ واقعی</span> شوید. 
+                      اما با یکم تجربه و ایرانی بازی راحت با این مبلغ  میتونی <span className="gold-gradient-text font-black px-1">۴ الی ۵ برابر</span> سود استخراج کنید!
                     </p>
                   </div>
 
@@ -411,23 +411,23 @@ const App: React.FC = () => {
                   <div className="flex flex-col items-center gap-6">
                     <Gem className="text-[#E5B5A3]" size={48} />
                     <h2 className="text-2xl md:text-5xl font-black gold-gradient-text leading-tight uppercase px-6">
-                      معامله مون نشه !؟
+                      حالا معامله‌‌مون نشه!؟
                     </h2>
                   </div>
                   
                   <div className="space-y-12">
                     <p className="text-zinc-400 text-sm md:text-lg leading-loose max-w-2xl mx-auto px-6">
-                      اگر تا الان ثبت‌نام نکردی یا با ترید آشنایی نداری، مشکلی نیست. حتی اگر فقط ثبت‌نام و احراز هویت اولیه رو هم انجام بدی، چون صرافی برای ورودت به حساب من پورسانت تعلق میده!
+                      اگر تا الان ثبت‌نام نکردی یا با ترید آشنایی نداری، مشکلی نیست. شما اگر فقط ثبت‌نام و احراز هویت اولیه رو هم انجام بدی، چون صرافی برای ثبت نامت به حساب من پورسانت اختصاص میده!
                     </p>
 
                     <div className="p-8 md:p-12 bg-black/50 rounded-2xl border border-[#E5B5A3]/10 text-zinc-300 leading-loose text-xs md:text-base text-right relative overflow-hidden">
                       <div className="absolute top-0 right-0 w-2 h-full bg-[#E5B5A3]/30"></div>
                       <div className="space-y-8">
                         <p className="px-4">
-                          من می‌تونم در قبالش بهت کمک کنم تا اعتبار دریافتی خودت رو از بین نبری. بدون دخالت در اکانتت، تنها از طریق تلگرام راهنماییت می‌کنم که چه معامله‌ای انجام بدی. 
+                          من می‌تونم در قبالش بهت کمک کنم تا اعتبار دریافتی بونس دلاری خودت رو از بین نبری ! بدون دخالت در اکانتت، تنها از طریق تلگرام راهنماییت می‌کنم که چه معامله‌ای انجام بدی. 
                         </p>
                         <p className="px-4 font-bold text-zinc-400 border-r border-zinc-800">
-                          علت ترغیب شما همینه! من نه عاشق چشم و ابروی شمام و نه کسب درآمد شما مستقیماً برای من اهمیتی داره؛ فقط در قبال پورسانتی که دریافت می‌کنم بهتون کمک می‌کنم تا این تعامل برکت دو سویه داشته باشه و داستان حلال شه!
+                         بگی حلالش... کلا داستان ترغیب شما هم همینه! من نه عاشق چشم و ابروتم نه بنگاه خیره دارم و نه کسب درآمد شما مستقیماً برای من اهمیتی داره؛ بحث معامله ی دوسر سوده ، در قبال پورسانتی که از صرافی دریافت می‌کنم بهتون کمک می‌کنم خره که از پل رد شد ولت نمیکنم بونس‌ت رو با دست خودت برات نقد میکنم هم یچیز یاد بگیری هم تعامل خیر ش ۲طرفه باشه !
                         </p>
                       </div>
                     </div>
@@ -447,7 +447,7 @@ const App: React.FC = () => {
                       target="_blank"
                       className="flex flex-col items-center justify-center p-8 bg-zinc-900 text-white rounded-2xl border border-white/5 hover:bg-zinc-800 transition-colors font-bold no-underline"
                     >
-                      ورود مستقل
+                      ورود مستقل بی دعوت !
                       <span className="text-[10px] uppercase tracking-widest mt-2 text-zinc-500">Official Portal</span>
                     </a>
                   </div>
