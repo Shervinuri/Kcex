@@ -354,12 +354,12 @@ const App: React.FC = () => {
               <div className="fade-in w-full text-center space-y-10">
                 <h1 className="text-4xl md:text-7xl font-black leading-tight flex flex-col items-center">
                   <img src={LOGO_URL} alt="KCEX" className="h-16 md:h-24 object-contain mb-6 brightness-125" />
-                  <span className="text-lg md:text-2xl text-zinc-500 font-medium block px-2">این صرافی رو همه ی ایرانی‌ها می‌شناسند!</span>
+                  <span className="text-lg md:text-2xl text-zinc-500 font-medium block px-2">این صرافی رو هـمـه ی ایرانی‌ها می‌شناسند!</span>
                 </h1>
                 
                 <div className="glass-panel p-6 md:p-14 rounded-3xl shadow-2xl space-y-8 max-w-2xl mx-auto">
                   <p className="text-zinc-300 text-sm md:text-xl leading-loose font-medium px-4">
-                    ثبت‌نام ۵ دقیقه‌ای با پذیرش <span className="gold-gradient-text font-black px-1">کارت ملی معتبر ایران</span>.
+                    ثبت‌نام ۵ دقیقه‌ای بدون تحریم با پذیرش <span className="gold-gradient-text font-black px-1">کارت ملی معتبر ایرانی</span>.
                     <br className="hidden md:block" />
                     دریافت وام ارز معاملاتی بدون پرداخت یک ریال هزینه!
                   </p>
@@ -390,8 +390,8 @@ const App: React.FC = () => {
                     </p>
                     
                     <p className="text-zinc-300 text-sm md:text-lg leading-loose text-center px-6">
-                      و نهایتا شما صاحب یک حساب معتبر ارزی با کارمزدهای <span className="text-white font-bold px-1">۰٪ واقعی</span> شوید. 
-                      اما با یکم تجربه و ایرانی بازی راحت با این مبلغ  میتونی <span className="gold-gradient-text font-black px-1">۴ الی ۵ برابر</span> سود استخراج کنید!
+                      و نهایتا شما صاحب یک حساب معتبر ارزی با کارمزدهای <span className="text-white font-bold px-1"> ۰٪ واقعی</span> میشی. 
+                      اما با یکم تجربه و ایرانی بازی راحت با این مبلغ میتونی <span className="gold-gradient-text font-black px-1">۴ الی ۵ برابر</span> سود استخراج کنید!
                     </p>
                   </div>
 
@@ -427,7 +427,7 @@ const App: React.FC = () => {
                           من می‌تونم در قبالش بهت کمک کنم تا اعتبار دریافتی بونس دلاری خودت رو از بین نبری ! بدون دخالت در اکانتت، تنها از طریق تلگرام راهنماییت می‌کنم که چه معامله‌ای انجام بدی. 
                         </p>
                         <p className="px-4 font-bold text-zinc-400 border-r border-zinc-800">
-                         بگی حلالش... کلا داستان ترغیب شما هم همینه! من نه عاشق چشم و ابروتم نه بنگاه خیره دارم و نه کسب درآمد شما مستقیماً برای من اهمیتی داره؛ بحث معامله ی دوسر سوده ، در قبال پورسانتی که از صرافی دریافت می‌کنم بهتون کمک می‌کنم خره که از پل رد شد ولت نمیکنم بونس‌ت رو با دست خودت برات نقد میکنم هم یچیز یاد بگیری هم تعامل خیر ش ۲طرفه باشه !
+                         ... کلا داستان ترغیب شما هم همینه! من نه عاشق چشم و ابروتم نه بنگاه خیره دارم و نه کسب درآمد شما مستقیماً برای من اهمیتی داره؛ بحث معامله ی دوسر سوده ، در قبال پورسانتی که از صرافی دریافت می‌کنم بهتون کمک می‌کنم خره که از پل رد شد ولت نمیکنم بونس‌ت رو با دست خودت برات نقد میکنم هم یچیز یاد بگیری هم تعامل خیر ش ۲طرفه با !
                         </p>
                       </div>
                     </div>
